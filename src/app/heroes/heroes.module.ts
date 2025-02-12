@@ -10,6 +10,7 @@ import { HeroesRoutingModule } from './heroes-routing.module';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/hero-image.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirmDialogComponent } from './components/confirmDialog/confirmDialog.component';
 
 
 
@@ -21,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ListPageComponent,
     NewPageComponent,
     SearchPageComponent,
+    ConfirmDialogComponent,
 
     //pipes
     HeroImagePipe,
