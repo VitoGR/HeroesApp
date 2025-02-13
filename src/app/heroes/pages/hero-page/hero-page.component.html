@@ -39,7 +39,8 @@
     <mat-card-header>
 
       <mat-card-title>Información</mat-card-title>
-      <mat-card-subtitle>{{hero.superhero}}</mat-card-subtitle>
+
+      <mat-card-subtitle><strong> Nobre de super héroe: </strong>{{hero.superhero}}</mat-card-subtitle>
 
     </mat-card-header>
 
@@ -48,10 +49,10 @@
 
       <mat-list>
 
-        <mat-list-item>{{hero.first_appearance}}</mat-list-item>
-        <mat-list-item>{{hero.characters}}</mat-list-item>
-        <mat-list-item>{{hero.publisher}}</mat-list-item>
-        <mat-list-item>{{hero.alter_ego}}</mat-list-item>
+        <mat-list-item><strong> Primera aparición: </strong> {{hero.first_appearance}}</mat-list-item>
+        <mat-list-item><strong> Interpretes: </strong> {{hero.characters}}</mat-list-item>
+        <mat-list-item><strong> Publisher: </strong> {{hero.publisher}}</mat-list-item>
+        <mat-list-item><strong> Alter ego: </strong> {{hero.alter_ego}}</mat-list-item>
 
       </mat-list>
 
